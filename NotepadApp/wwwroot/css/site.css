@@ -1,0 +1,47 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.note-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border-radius: 10px;
+}
+
+.note-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.note-card.border-warning {
+    border-width: 2px !important;
+}
+
+.note-content {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: 0.5px;
+}
+
+textarea.form-control {
+    resize: vertical;
+    min-height: 200px;
+}
+
+.notepad-header h2 {
+    color: #212529;
+}
